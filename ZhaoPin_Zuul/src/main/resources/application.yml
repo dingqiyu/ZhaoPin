@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: WASHCARZULL
+
+server:
+  port: 9099
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.97.251.125:8761/eureka/
+
+
+zuul:
+  routes:
+    wash:   #名称任意指定
+        path: /api/**      #请求路径
+        serviceId: WASHAPI
