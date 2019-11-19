@@ -7,6 +7,8 @@
         <module>ZhaoPin_Entity</module>
         <module>ZhaoPin_Common</module>
         <module>ZhaoPin_Zuul</module>
+        <module>ZhaoPin_JobProvider</module>
+        <module>ZhaoPin_JobApi</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
