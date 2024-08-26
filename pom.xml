@@ -27,7 +27,7 @@
         <spring-cloud.version>Hoxton.RC1</spring-cloud.version>
         <lombok.varsion>1.18.10</lombok.varsion>
         <mybatis.varsion>2.1.1</mybatis.varsion>
-        <swagger.varsion>2.9.2</swagger.varsion>
+        <swagger.varsion>2.10.0</swagger.varsion>
         <druid.varsion>1.1.20</druid.varsion>
     </properties>
 
